@@ -1,9 +1,8 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-
 import {SafeAreaView, StatusBar, useColorScheme, View} from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import Calender from './components/Calender';
+import Calender from './src/Calendar';
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
