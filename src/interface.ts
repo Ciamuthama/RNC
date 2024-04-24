@@ -49,7 +49,7 @@ export type CalenderImperativeApi = {
 };
 
 export type CalenderPageInterpolator = (
-  params: CalenderPageInterpolatorParams
+  params: CalendarPageInterpolatorParams
 ) => ReturnType<typeof useAnimatedStyle>;
 
 export type CalenderProps = {

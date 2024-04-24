@@ -4,7 +4,7 @@ import {
   interpolate,
   useAnimatedStyle,
 } from 'react-native-reanimated';
-import { CalenderPageInterpolatorParams } from './interface';
+import { CalendarPageInterpolatorParams } from './interface';
 
 const DEFAULT_FONT_FAMILY = Platform.OS === 'ios' ? 'Avenir' : 'Roboto';
 const DEFAULT_FONT_COLOR_ACTIVE = 'black';
@@ -43,7 +43,7 @@ export function defaultPageInterpolator({
   focusAnim,
   theme,
   pageWidth,
-}: CalenderPageInterpolatorParams): ReturnType<typeof useAnimatedStyle>{
+}: CalendarPageInterpolatorParams): ReturnType<typeof useAnimatedStyle>{
   'worklet';
 
   const inputRange = [-1, 0, 1];

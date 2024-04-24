@@ -201,7 +201,6 @@ const MyComponent = memo(
         minIndex={minPageIndex}
         maxIndex={maxPageIndex}
         pageInterpolator={pageInterpolatorInternal}
-        simultaneousGestures={simultaneousGestures}
         pageCallbackNode={monthAnimCallbackNode ? pageCallbackNode : undefined}
         gesturesDisabled={gesturesDisabled}
         animationConfig={animationConfig}
