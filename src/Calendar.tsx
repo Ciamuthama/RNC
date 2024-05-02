@@ -1,6 +1,5 @@
 
 import React, { forwardRef, memo, useCallback, useEffect, useImperativeHandle, useMemo, useRef } from 'react';
-import { Text, View } from 'react-native';
 import { isEqual } from 'date-fns';
 import { defaultPageInterpolator, DEFAULT_THEME } from './defaults';
 import {
@@ -56,7 +55,6 @@ const MyComponent = memo(
       minDate,
       maxDate,
       pageInterpolator = defaultPageInterpolator,
-      simultaneousGestures,
       monthAnimCallbackNode,
       gesturesDisabled,
       animationConfig,

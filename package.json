@@ -1,7 +1,7 @@
 {
-  "name": "RNC",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-calender-rnc",
+  "version": "1.0.1",
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -15,6 +15,7 @@
     "lodash": "^4.17.21",
     "react": "18.2.0",
     "react-native": "0.73.7",
+    "react-native-calender-rnc": "^1.0.0",
     "react-native-gesture-handler": "^2.16.0",
     "react-native-infinite-pager": "^0.0.11",
     "react-native-reanimated": "^3.8.1"
